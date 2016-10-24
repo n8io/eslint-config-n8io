@@ -16,6 +16,11 @@ An opinionated eslint configuration for backend and frontend development.
 	```
 
 ## Rule set definitions
+
+### How does this differ from the `eslint:recommended` rules?
+
+See the rules defined here: [base.js](./base.js)
+
 Rules cascade per the pseudo-code below.
 
 1. `n8io = Object.assign('eslint:recommended', 'n8io/base')`

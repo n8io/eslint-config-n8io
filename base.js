@@ -126,33 +126,6 @@ const baseRules = {
   "symbol-description":      "error", // require symbol descriptions                                                                 http://eslint.org/docs/rules/symbol-description
   "template-curly-spacing":  "error", // require or disallow spacing around embedded expressions of template strings (fixable)       http://eslint.org/docs/rules/template-curly-spacing
   "yield-star-spacing":      ["error", "after"], // require or disallow spacing around the * in yield* expressions (fixable)                    http://eslint.org/docs/rules/yield-star-spacing
-
-  /* Deprecated rules
-  "no-native-reassign": ["no-global-assign"],
-  "no-negated-in-lhs":  ["no-unsafe-negation"],
-  "no-spaced-func":     ["func-call-spacing"],
-  */
-
-  /* Removed rules
-  "generator-star":                    ["generator-star-spacing"],
-  "global-strict":                     ["strict"],
-  "no-arrow-condition":                ["no-confusing-arrow", "no-constant-condition"],
-  "no-comma-dangle":                   ["comma-dangle"],
-  "no-empty-class":                    ["no-empty-character-class"],
-  "no-empty-label":                    ["no-labels"],
-  "no-extra-strict":                   ["strict"],
-  "no-reserved-keys":                  ["quote-props"],
-  "no-space-before-semi":              ["semi-spacing"],
-  "no-wrap-func":                      ["no-extra-parens"],
-  "space-after-function-name":         ["space-before-function-paren"],
-  "space-after-keywords":              ["keyword-spacing"],
-  "space-before-function-parentheses": ["space-before-function-paren"],
-  "space-before-keywords":             ["keyword-spacing"],
-  "space-in-brackets":                 ["object-curly-spacing", "array-bracket-spacing"],
-  "space-return-throw-case":           ["keyword-spacing"],
-  "space-unary-word-ops":              ["space-unary-ops"],
-  "spaced-line-comment":               ["spaced-comment"],
-  */
 };
 
 const consolidatedConfig = Object.assign({}, defaults, {
