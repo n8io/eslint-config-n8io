@@ -18,7 +18,7 @@ An opinionated eslint configuration for backend and frontend development.
 ## Rule set definitions
 Rules cascade per the pseudo-code below.
 
-1. `n8io = Object.assign('eslint:recommended', 'n8io/base', './frontend')`
+1. `n8io = Object.assign('eslint:recommended', 'n8io/base')`
 2. `n8io/backend = Object.assign('eslint:recommended', './base', './backend')`
 3. `n8io/frontend = Object.assign('eslint:recommended', './base', './frontend')`
 4. `n8io/frontend-react = Object.assign('eslint:recommended', 'n8io/base', './frontend', './frontend-react')`

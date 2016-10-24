@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-n8io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An opinionated eslint configuration for backend and frontend development.",
   "author": "Nate Clark <n8@n8io.com> (https://blog.n8io.com)",
   "main": "index.js",
